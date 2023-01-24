@@ -1,6 +1,7 @@
 /* Google Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 * {
    margin: 0;
    padding: 0;
@@ -307,7 +308,9 @@ h3 {
 }
 
 /* Call to Action */
-.cta {  
+.cta {
+   margin: 100px auto;
+   width: 80%;
    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background_2_11zon.webp);
    background-position: center;
    background-size: cover;
@@ -363,19 +366,24 @@ h3 {
 */
 
 @media(max-width:769px) {
+
    /* Header */
    nav img {
       width: 130px;
    }
+
    .text-box h1 {
       font-size: 45px;
    }
+
    .text-box p {
       margin: 10px 0 15px;
    }
+
    .nav-links ul li {
       display: block;
    }
+
    .nav-links {
       position: absolute;
       background: #f44336;
@@ -387,6 +395,7 @@ h3 {
       z-index: 2;
       transition: 1s;
    }
+
    nav .fa {
       display: block;
       color: #fff;
@@ -394,9 +403,11 @@ h3 {
       font-size: 22px;
       cursor: pointer;
    }
+
    .nav-links ul {
       padding: 30px;
    }
+
    /* Campus */
    .campus {
       width: 100%;
@@ -404,18 +415,22 @@ h3 {
       text-align: center;
       padding: 50px;
    }
+
    .layer h3 {
       font-size: 13px;
    }
+
    /* Facilities */
    .facilities-col img {
       width: 90%;
    }
+
    /* Testimonials */
    .testimonial-col img {
       margin-left: 0px;
       margin-right: 15px;
    }
+
    /* Call to Action */
    .cta h1 {
       font-size: 24px;
@@ -426,71 +441,88 @@ h3 {
    h1 {
       font-size: 28px;
    }
+
    /* Header */
    .text-box h1 {
       font-size: 35px;
    }
+
    .text-box p {
       font-size: 12px;
       margin: 10px 0 5px;
    }
+
    /* Course */
    .row {
       flex-direction: column;
    }
+
    /* Campus */
    .layer h3 {
       font-size: 18px;
    }
+
    .campus-col {
       margin: 15px auto;
       width: 70%;
    }
+
    /* Facilities */
    .facilities-col img {
       width: 75%;
    }
+
    /* Testimonials */
    .testimonials h1 {
       margin-bottom: 5%;
    }
+
    .testimonials .row {
       margin-top: 0;
    }
+
    .testimonial-col {
       margin-bottom: 20px;
    }
+
    /* Call to Action */
    .cta {
       margin: 50px auto;
       padding: 40px 0;
    }
+
    .cta h1 {
       font-size: 20px;
    }
 }
 
 @media(max-width:321px) {
+
    /* Header */
    .text-box h1 {
       font-size: 28px;
    }
+
    .text-box p {
       font-size: 10px;
       margin: 5px 0 5px;
    }
+
    .hero-btn {
       font-size: 10px;
       padding: 8px 20px;
    }
+
    /* Testimonials */
    .testimonial-col p {
       font-size: 13px;
    }
+
    /* Call to Action */
    .cta {
       padding: 30px 0;
    }
+
    .cta h1 {
       font-size: 15px;
    }
