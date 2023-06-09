@@ -1,10 +1,8 @@
 # Just Because - Home Page
 
-![Just Because Preview](./images/Just-Because-Preview.webp "Preview")
-
-## Project Overview
-
 Just Because is a static website built using HTML, CSS, and Javascript. It is a tribute to my favorite anime from high school days. This website demonstrates my ability to build an interactive, responsive, and modern web design.
+
+![Just Because Preview](./images/Just-Because-Preview.webp "Preview")
 
 You can view the live website [here](https://mido-kun.github.io/Just-Because-Wiki/).
 
